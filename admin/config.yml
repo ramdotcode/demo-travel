@@ -1,0 +1,120 @@
+backend:
+  name: github
+  repo: ramdotcode/denisa-trans
+  branch: main
+  base_url: https://decap-proxy.ramdotcode.workers.dev
+  auth_endpoint: auth
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "perusahaan"
+    label: "🏢 Profil Perusahaan"
+    files:
+      - label: "Umum"
+        name: "umum"
+        file: "data/perusahaan.json"
+        fields:
+          - {label: "Nama Travel", name: "nama", widget: "string"}
+          - {label: "Tagline Hero", name: "tagline", widget: "string"}
+          - {label: "WhatsApp (Format: 62xx)", name: "whatsapp", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Alamat", name: "alamat", widget: "string"}
+          - {label: "Instagram URL", name: "instagram", widget: "string"}
+
+  - name: "data_layanan"
+    label: "🚐 Kelola Layanan"
+    files:
+      - label: "List Layanan"
+        name: "list_layanan"
+        file: "data/layanan.json"
+        fields:
+          - label: "Layanan"
+            name: "layanan"
+            widget: "list"
+            fields:
+              - {label: "Nama Layanan", name: "nama", widget: "string"}
+              - {label: "Deskripsi", name: "deskripsi", widget: "text"}
+              - {label: "Gambar Layanan", name: "gambar", widget: "image"}
+              - {label: "Link Page", name: "link", widget: "string"}
+
+  - name: "data_rute"
+    label: "🛣️ Kelola Rute"
+    files:
+      - label: "List Rute"
+        name: "list_rute"
+        file: "data/rute.json"
+        fields:
+          - label: "Rute"
+            name: "rute"
+            widget: "list"
+            fields:
+              - {label: "Dari", name: "asal", widget: "string"}
+              - {label: "Tujuan", name: "tujuan", widget: "string"}
+              - {label: "Harga", name: "harga", widget: "string"}
+              - {label: "Keterangan", name: "keterangan", widget: "string"}
+
+  - name: "data_fasilitas"
+    label: "🛠️ Kelola Fasilitas"
+    files:
+      - label: "List Fasilitas"
+        name: "list_fasilitas"
+        file: "data/fasilitas.json"
+        fields:
+          - label: "Fasilitas"
+            name: "fasilitas"
+            widget: "list"
+            fields:
+              - {label: "Nama Fasilitas", name: "nama", widget: "string"}
+              - {label: "Deskripsi", name: "deskripsi", widget: "text"}
+              - {label: "Icon (FontAwesome)", name: "icon", widget: "string"}
+
+  - name: "data_galeri"
+    label: "📂 Galeri Foto"
+    files:
+      - label: "Koleksi Foto"
+        name: "koleksi_foto"
+        file: "data/galeri.json"
+        fields:
+          - label: "Foto"
+            name: "foto"
+            widget: "list"
+            fields:
+              - {label: "Judul Foto", name: "title", widget: "string"}
+              - {label: "File Gambar", name: "image", widget: "image"}
+
+  - name: "data_packages"
+    label: "🎁 Paket Wisata"
+    files:
+      - label: "List Paket"
+        name: "list_paket"
+        file: "data/packages.json"
+        fields:
+          - label: "Packages"
+            name: "packages"
+            widget: "list"
+            fields:
+              - {label: "Tag (Bestseller/New)", name: "tag", widget: "string"}
+              - {label: "Judul Paket", name: "title", widget: "string"}
+              - {label: "Subjudul/Fasilitas", name: "subtitle", widget: "string"}
+              - {label: "Harga", name: "price", widget: "string"}
+              - {label: "Link Detail", name: "link", widget: "string"}
+              - {label: "Foto Paket", name: "image", widget: "image"}
+
+  - name: "data_news"
+    label: "📰 Berita & Promo"
+    files:
+      - label: "List Berita"
+        name: "list_berita"
+        file: "data/news.json"
+        fields:
+          - label: "News"
+            name: "news"
+            widget: "list"
+            fields:
+              - {label: "Tanggal", name: "date", widget: "string"}
+              - {label: "Judul Berita", name: "title", widget: "string"}
+              - {label: "Ringkasan", name: "excerpt", widget: "text"}
+              - {label: "Link Baca", name: "link", widget: "string"}
+              - {label: "Gambar Unggulan", name: "image", widget: "image"}

@@ -1,0 +1,31 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "tag": "Best Seller",
+      "title": "Explore Bali Paradise",
+      "subtitle": "5 Hari 4 Malam - Include Hotel, Tiket Pesawat, & Driver",
+      "price": "Mulai Rp 3.5jt",
+      "link": "#",
+      "image": "assets/images/explore_bali.png"
+    },
+    {
+      "id": 2,
+      "tag": "Adventure",
+      "title": "Bromo Midnight Tour",
+      "subtitle": "2 Hari 1 Malam - Jeep 4x4, Sunrise Point & Dokumentasi",
+      "price": "Mulai Rp 1.2jt",
+      "link": "#",
+      "image": "assets/images/bromo_midnight.png"
+    },
+    {
+      "id": 3,
+      "tag": "Family",
+      "title": "Jogja Heritage Tour",
+      "subtitle": "3 Hari 2 Malam - Malioboro, Borobudur & Kuliner",
+      "price": "Mulai Rp 2.2jt",
+      "link": "#",
+      "image": "assets/images/jogja_heritage.png"
+    }
+  ]
+}

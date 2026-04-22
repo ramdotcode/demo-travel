@@ -1,0 +1,28 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "date": "22 April 2026",
+      "title": "Promo Lebaran: Diskon 20% Semua Rute Wisata",
+      "excerpt": "Dapatkan penawaran terbatas untuk pemesanan paket wisata selama periode libur lebaran...",
+      "link": "#",
+      "image": "assets/images/promo_lebaran.png"
+    },
+    {
+      "id": 2,
+      "date": "18 April 2026",
+      "title": "5 Destinasi Hidden Gem di Jawa Barat",
+      "excerpt": "Bosan dengan tempat yang itu-itu saja? Simak daftar destinasi tersembunyi yang wajib dikunjungi...",
+      "link": "#",
+      "image": "assets/images/hidden_gem.png"
+    },
+    {
+      "id": 3,
+      "date": "15 April 2026",
+      "title": "Tips Packing Hemat Ruang untuk Liburan",
+      "excerpt": "Panduan lengkap cara merapikan koper agar muat lebih banyak barang tanpa harus ribet...",
+      "link": "#",
+      "image": "assets/images/tips_packing.png"
+    }
+  ]
+}

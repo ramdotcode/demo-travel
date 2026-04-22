@@ -1,0 +1,36 @@
+{
+  "foto": [
+    {
+      "title": "Sunrise di Bromo",
+      "image": "assets/images/bromo_midnight.png"
+    },
+    {
+      "title": "Eksplorasi Bali",
+      "image": "assets/images/explore_bali.png"
+    },
+    {
+      "title": "Candi Borobudur",
+      "image": "assets/images/jogja_heritage.png"
+    },
+    {
+      "title": "Momen Road Trip",
+      "image": "assets/images/road_trip.png"
+    },
+    {
+      "title": "Corporate Gathering",
+      "image": "assets/images/corporate_gathering.png"
+    },
+    {
+      "title": "Honeymoon di Pantai",
+      "image": "assets/images/honeymoon.png"
+    },
+    {
+      "title": "Layanan Hiace Premium",
+      "image": "assets/images/hiace1.png"
+    },
+    {
+      "title": "Armada Innova Reborn",
+      "image": "assets/images/innova1.png"
+    }
+  ]
+}

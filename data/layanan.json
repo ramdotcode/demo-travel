@@ -1,0 +1,32 @@
+{
+  "layanan": [
+    {
+      "id": 1,
+      "nama": "Travel Door to Door",
+      "deskripsi": "Layanan antar jemput rutin setiap hari dengan rute Cianjur, Sukabumi dan sekitarnya.",
+      "gambar": "assets/images/service-door.png",
+      "link": "layanan-door-to-door.html"
+    },
+    {
+      "id": 2,
+      "nama": "Rental & Charter",
+      "deskripsi": "Sewa mobil plus driver untuk kebutuhan wisata, dinas luar kota, atau acara keluarga.",
+      "gambar": "assets/images/service-rental.png",
+      "link": "layanan-rental-mobil.html"
+    },
+    {
+      "id": 3,
+      "nama": "Sewa Mobil Hiace",
+      "deskripsi": "Armada Toyota Hiace nyaman untuk rombongan keluarga, ziarah, atau wisata.",
+      "gambar": "assets/images/hero-bg.png",
+      "link": "layanan-rental-mobil.html"
+    },
+    {
+      "id": 4,
+      "nama": "Titipan Paket Kilat",
+      "deskripsi": "Kirim paket dokumen atau barang berharga sampai dalam hitungan jam (Sameday).",
+      "gambar": "assets/images/service-package.png",
+      "link": "layanan-titip-paket.html"
+    }
+  ]
+}
